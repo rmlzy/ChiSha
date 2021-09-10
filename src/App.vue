@@ -12,7 +12,7 @@
 
     <div class="chooser">
       <div class="banner">
-        <div class="banner__title">今天{{ date }}吃什么</div>
+        <div class="banner__title">今天{{ date }}吃啥</div>
         <div class="banner__loading">
           <span v-if="result">{{ result }}</span>
           <loading v-else-if="running" :running="running"></loading>

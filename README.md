@@ -1,4 +1,4 @@
-# 今天吃什么
+# 今天吃啥
 
 一个简单的转盘抽奖程序，设计稿来自 [@xincreate](https://www.figma.com/community/file/1018001235799678662)。
 
