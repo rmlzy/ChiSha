@@ -79,6 +79,10 @@ export default defineComponent({
         deg = deg % 360;
         rouletteRef.value.style[transformJs] = `rotate(${deg}deg)`;
       }, 1);
+
+      setTimeout(() => {
+        stop();
+      }, 5000);
     };
 
     const stop = () => {
